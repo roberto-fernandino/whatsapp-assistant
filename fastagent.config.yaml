@@ -39,3 +39,6 @@ mcp:
         filesystem:
             command: "npx"
             args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
+        whatsapp:
+            command: "/opt/homebrew/bin/uv"
+            args: ["run", "--directory=/Users/mac/projetos/whatsapp-mcp/whatsapp-mcp-server", "main.py"]
